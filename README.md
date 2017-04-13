@@ -1,4 +1,4 @@
-# chru
+# Chru
 An automation script running inside electron.
 
 **A Pull Request is always welcome**
