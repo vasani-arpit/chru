@@ -21,7 +21,7 @@ var options = {
     insecure: false,
     //honest: false,
     zoom: 1.0,
-    inject:['.inject/inject.js'],
+    inject:['./inject/inject.js'],
     singleInstance: true
 };
 
