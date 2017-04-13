@@ -1,0 +1,28 @@
+{
+  "name": "chru",
+  "version": "1.0.0",
+  "description": "a simple electron automation app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasani-arpit/chru.git"
+  },
+  "keywords": [
+    "automation",
+    "electron",
+    "javascript",
+    "desktop-app"
+  ],
+  "author": "Arpit Vasani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasani-arpit/chru/issues"
+  },
+  "homepage": "https://github.com/vasani-arpit/chru#readme",
+  "dependencies": {
+    "nativefier": "^7.1.0"
+  }
+}
