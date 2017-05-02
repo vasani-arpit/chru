@@ -22,8 +22,8 @@ var injectFileList = function (dir, filelist) {
 
 // possible options, defaults unless specified otherwise
 var options = {
-    name: 'Whatsapp Web', // will be inferred if not specified
-    targetUrl: 'http://web.whatsapp.com', // required
+    name: 'Google Web', // will be inferred if not specified
+    targetUrl: 'http://www.google.com', // required
     //platform: 'darwin', // defaults to the current system
     arch: 'x64', // defaults to the current system    
     version: '0.36.4',
