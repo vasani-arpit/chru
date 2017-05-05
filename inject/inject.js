@@ -1,3 +1,6 @@
+var testFun = require('./utils.js');
+testFun.test();
+
 // Anonymous "self-invoking" function
 (function () {
     // Load the script

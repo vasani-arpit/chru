@@ -9,11 +9,11 @@ An automation script running inside electron.
     git clone https://github.com/vasani-arpit/chru.git
     cd chru
     npm install
-    node index.js
+    npm run prebuild  //to get assets ready
+    npm create // this will create a folder with a site name having app with injected js into it
 ```
 
 ## Roadmap
 
-- configure a build system
-- add minification and uglification logic for injected css and js
+- add more and propper minification and uglification logic for injected css and js
 - add jQuery and jQuery-tmpl

@@ -10,4 +10,6 @@
 
 
 
-
+this.test = function () {
+    alert("this is a test function");
+}

@@ -4,7 +4,10 @@
   "description": "a simple electron automation app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node console.log(\"it works\"); && exit 1",
+    "prebuild":"webpack ./inject/inject.js ./inject/bundle.js",
+    "prod":"webpack ./inject/inject.js ./inject/bundle.js -p",
+    "create":"nativefier 'http://web.whatsapp.com' --inject ./inject/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
   "homepage": "https://github.com/vasani-arpit/chru#readme",
   "dependencies": {
     "nativefier": "^7.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
   }
 }
